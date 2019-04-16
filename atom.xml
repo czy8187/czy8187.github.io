@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>悲酥清风﹌</title>
+  
+  <subtitle>时间在哪里，成就就在哪里。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://topsee.top/"/>
+  <updated>2018-06-15T08:50:42.000Z</updated>
+  <id>http://topsee.top/</id>
+  
+  <author>
+    <name>悲酥清风﹌</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>完美适配iOS 11</title>
+    <link href="http://topsee.top/2018/05/30/%E5%AE%8C%E7%BE%8E%E9%80%82%E9%85%8DiOS-11/"/>
+    <id>http://topsee.top/2018/05/30/完美适配iOS-11/</id>
+    <published>2018-05-30T01:44:16.000Z</published>
+    <updated>2018-06-15T08:50:42.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h5 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h5&gt;&lt;blockquote&gt;
+&lt;p&gt;升级iOS 11 之后，发现屏幕适配的bug&lt;br&gt;以下为适配解决方案&lt;/p&gt;
+&lt;/blockquote
+      
+    
+    </summary>
+    
+      <category term="知识点点" scheme="http://topsee.top/categories/%E7%9F%A5%E8%AF%86%E7%82%B9%E7%82%B9/"/>
+    
+    
+      <category term="iOS 11" scheme="http://topsee.top/tags/iOS-11/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo Admin</title>
+    <link href="http://topsee.top/2018/03/27/Hello-Hexo-Admin/"/>
+    <id>http://topsee.top/2018/03/27/Hello-Hexo-Admin/</id>
+    <published>2018-03-27T08:23:47.000Z</published>
+    <updated>2018-03-28T01:40:19.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由Hexo Admin 在线创建&lt;/p&gt;
+&lt;p&gt;试试在线部署deploy&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown语法练习</title>
+    <link href="http://topsee.top/2018/03/27/Markdown%E8%AF%AD%E6%B3%95%E7%BB%83%E4%B9%A0/"/>
+    <id>http://topsee.top/2018/03/27/Markdown语法练习/</id>
+    <published>2018-03-27T03:45:00.000Z</published>
+    <updated>2018-07-27T09:29:15.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Markdown-编辑器语法指南&quot;&gt;&lt;a href=&quot;#Markdown-编辑器语法指南&quot; class=&quot;headerlink&quot; title=&quot;Markdown 编辑器语法指南&quot;&gt;&lt;/a&gt;Markdown 编辑器语法指南&lt;/h2&gt;&lt;h3 id=&quot;基本技巧&quot;&gt;&lt;a href=&quot;#基本技巧&quot; class=&quot;headerlink&quot; title=&quot;基本技巧&quot;&gt;&lt;/a&gt;基本技巧&lt;/h3&gt;&lt;h4 id=&quot;代码引入与高亮&quot;&gt;&lt;a href=&quot;#代码引入与高亮&quot; class=&quot;headerlink&quot; title=&quot;代码引入与高亮&quot;&gt;&lt;/a&gt;代码引入与高亮&lt;/h4&gt;&lt;p&gt;用 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;```swift&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;let name = &amp;quot;小米&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果你只想高亮语句中的某个函数名或关键字，可以使用  &lt;code&gt;function_name()&lt;/code&gt; 实现&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="练习簿" scheme="http://topsee.top/categories/%E7%BB%83%E4%B9%A0%E7%B0%BF/"/>
+    
+    
+      <category term="markdown" scheme="http://topsee.top/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两台电脑同步发博测试</title>
+    <link href="http://topsee.top/2018/03/16/%E4%B8%A4%E5%8F%B0%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5%E5%8F%91%E5%8D%9A%E6%B5%8B%E8%AF%95/"/>
+    <id>http://topsee.top/2018/03/16/两台电脑同步发博测试/</id>
+    <published>2018-03-16T15:54:06.000Z</published>
+    <updated>2018-03-20T09:34:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;MacBook-Pro&quot;&gt;&lt;a href=&quot;#MacBook-Pro&quot; class=&quot;headerlink&quot; title=&quot;MacBook Pro&quot;&gt;&lt;/a&gt;MacBook Pro&lt;/h2&gt;&lt;h2 id=&quot;iMac&quot;&gt;&lt;a href=&quot;#iMac&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客流程</title>
+    <link href="http://topsee.top/2018/03/16/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%B5%81%E7%A8%8B/"/>
+    <id>http://topsee.top/2018/03/16/搭建博客流程/</id>
+    <published>2018-03-16T06:32:30.000Z</published>
+    <updated>2018-03-16T07:49:38.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;搭建博客流程&quot;&gt;&lt;a href=&quot;#搭建博客流程&quot; class=&quot;headerlink&quot; title=&quot;搭建博客流程&quot;&gt;&lt;/a&gt;搭建博客流程&lt;/h2&gt;&lt;p&gt;待续 hexo d部署&lt;/p&gt;
+&lt;h2 id=&quot;报错总结&quot;&gt;&lt;a href=&quot;#报错总结&quot; class=&quot;h
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://topsee.top/2018/03/14/hello-world/"/>
+    <id>http://topsee.top/2018/03/14/hello-world/</id>
+    <published>2018-03-14T07:38:31.000Z</published>
+    <updated>2018-03-14T07:38:31.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
