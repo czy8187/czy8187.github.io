@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明]]></title>
     <url>%2F2019%2F04%2F18%2FFlutter%E4%B8%ADListView%E3%80%81Listview.builder%E3%80%81ListView.separated%E3%80%81ListTile%E7%9A%84%E8%AF%B4%E6%98%8E%2F</url>
-    <content type="text"><![CDATA[###Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明 ####警告块: 使用警告块需要 div 标签和 tip 类名： 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！ 123&lt;div class="tip"&gt; 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！&lt;/div&gt; ListTile示例： 12345678910return new ListTile( contentPadding:const EdgeInsets.all(5.0), title: new Text( book.name, style: TextStyle(fontSize: 16.0) ), leading: new Image.asset('lib/imageFile/pdfCover@2x.png', width: 40, height: 50), onTap: _openPDF,);]]></content>
+    <content type="text"><![CDATA[Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明警告块:使用警告块需要 div 标签和 tip 类名： 123&lt;div class="tip"&gt; 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！&lt;/div&gt; 效果如下： 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！ ListTile示例： 12345678910return new ListTile( contentPadding:const EdgeInsets.all(5.0), title: new Text( book.name, style: TextStyle(fontSize: 16.0) ), leading: new Image.asset('lib/imageFile/pdfCover@2x.png', width: 40, height: 50), onTap: _openPDF,);]]></content>
       <categories>
         <category>flutter从入门到再次入门</category>
       </categories>
