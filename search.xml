@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[gantt]]></title>
-    <url>%2F2019%2F04%2F18%2Fgantt%2F</url>
-    <content type="text"><![CDATA[ganttdateformat HH:mmTitle 24-Hour DayWhole day: done, 00:00, 1440m睡觉:crit, sleep2,after 00:00, 450m &lt;–! 00:00-7:30 –&gt;起床: get_up,after sleep2, 30m &lt;–! 7:30-8:00 –&gt;通勤(公交车)/早餐: commute1,after get_up, 60m &lt;–! 8:00-9:00 –&gt;工作 :active,work1,after commute1,180m &lt;–! 9:00-12:00 –&gt;吃饭/休息 : rest,after work1,90m &lt;–! 12:00-13:30 –&gt;工作 :active,work2,after rest,330m &lt;–! 13:30-19:00 –&gt;通勤(步行) : commute2,after work2,90m &lt;–! 19:00-20:30 –&gt;学习:crit, study,after commute2,120m &lt;–! 20:30-22:30 –&gt;准备睡觉: pre_sleep,after study,30m &lt;–! 22:30-23:00 –&gt;睡觉 : crit,sleep1,after pre_sleep,60m &lt;–! 23:00-00:00 –&gt;]]></content>
+    <title><![CDATA[Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明]]></title>
+    <url>%2F2019%2F04%2F18%2FFlutter%E4%B8%ADListView%E3%80%81Listview.builder%E3%80%81ListView.separated%E3%80%81ListTile%E7%9A%84%E8%AF%B4%E6%98%8E%2F</url>
+    <content type="text"><![CDATA[###Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明 ####警告块: 使用警告块需要 div 标签和 tip 类名： 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！ 123&lt;div class="tip"&gt; 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！&lt;/div&gt; ListTile示例： 12345678910return new ListTile( contentPadding:const EdgeInsets.all(5.0), title: new Text( book.name, style: TextStyle(fontSize: 16.0) ), leading: new Image.asset('lib/imageFile/pdfCover@2x.png', width: 40, height: 50), onTap: _openPDF,);]]></content>
+      <categories>
+        <category>flutter从入门到再次入门</category>
+      </categories>
+      <tags>
+        <tag>flutter</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[完美适配iOS 11]]></title>
