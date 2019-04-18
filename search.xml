@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[gantt]]></title>
+    <url>%2F2019%2F04%2F18%2Fgantt%2F</url>
+    <content type="text"><![CDATA[ganttdateformat HH:mmTitle 24-Hour DayWhole day: done, 00:00, 1440m睡觉:crit, sleep2,after 00:00, 450m &lt;–! 00:00-7:30 –&gt;起床: get_up,after sleep2, 30m &lt;–! 7:30-8:00 –&gt;通勤(公交车)/早餐: commute1,after get_up, 60m &lt;–! 8:00-9:00 –&gt;工作 :active,work1,after commute1,180m &lt;–! 9:00-12:00 –&gt;吃饭/休息 : rest,after work1,90m &lt;–! 12:00-13:30 –&gt;工作 :active,work2,after rest,330m &lt;–! 13:30-19:00 –&gt;通勤(步行) : commute2,after work2,90m &lt;–! 19:00-20:30 –&gt;学习:crit, study,after commute2,120m &lt;–! 20:30-22:30 –&gt;准备睡觉: pre_sleep,after study,30m &lt;–! 22:30-23:00 –&gt;睡觉 : crit,sleep1,after pre_sleep,60m &lt;–! 23:00-00:00 –&gt;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[完美适配iOS 11]]></title>
     <url>%2F2018%2F05%2F30%2F%E5%AE%8C%E7%BE%8E%E9%80%82%E9%85%8DiOS-11%2F</url>
     <content type="text"><![CDATA[前言 升级iOS 11 之后，发现屏幕适配的bug以下为适配解决方案 在Appdelegate.m中的didFinishLaunchingWithOptions方法中添加如下代码，就全局搞定了！1234567891011if (@available(ios 11.0,*)) &#123; UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever; UITableView.appearance.estimatedRowHeight = 0; UITableView.appearance.estimatedSectionFooterHeight = 0; UITableView.appearance.estimatedSectionHeaderHeight = 0; &#125;]]></content>
