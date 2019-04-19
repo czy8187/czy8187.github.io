@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Homebrew关闭自动更新]]></title>
+    <url>%2F2019%2F04%2F19%2FHomebrew%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%2F</url>
+    <content type="text"><![CDATA[在mac下使用brew安装软件时，默认每次都会自动更新homebrew，显示Updating Homebrew…，网络状况不好或者没有换源的时候，很慢，会卡在这里许久不动。 我们可以关闭自动更新，在命令行执行： 1export HOMEBREW_NO_AUTO_UPDATE=true 即可关闭自动更新。 如果想要重启后设置依然生效，可以把上面这行加入到当前正在使用的shell的配置文件中，比如我正在使用的是zsh，那么执行以下语句： 1vi ~/.zshrc 然后在合适的位置，加入： 12# brew关闭自动更新export HOMEBREW_NO_AUTO_UPDATE=true]]></content>
+      <categories>
+        <category>开发工具</category>
+      </categories>
+      <tags>
+        <tag>brew</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明]]></title>
     <url>%2F2019%2F04%2F18%2FFlutter%E4%B8%ADListView%E3%80%81Listview.builder%E3%80%81ListView.separated%E3%80%81ListTile%E7%9A%84%E8%AF%B4%E6%98%8E%2F</url>
     <content type="text"><![CDATA[Flutter中ListView、Listview.builder、ListView.separated、ListTile的说明警告块:使用警告块需要 div 标签和 tip 类名： 123&lt;div class="tip"&gt; 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！&lt;/div&gt; 效果如下： 预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！ ListTile示例： 12345678910return new ListTile( contentPadding:const EdgeInsets.all(5.0), title: new Text( book.name, style: TextStyle(fontSize: 16.0) ), leading: new Image.asset('lib/imageFile/pdfCover@2x.png', width: 40, height: 50), onTap: _openPDF,);]]></content>
