@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://topsee.top/"/>
-  <updated>2019-04-19T06:44:02.831Z</updated>
+  <updated>2019-04-19T07:08:38.814Z</updated>
   <id>http://topsee.top/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="http://topsee.top/2019/04/19/Homebrew%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
     <id>http://topsee.top/2019/04/19/Homebrew关闭自动更新/</id>
     <published>2019-04-19T06:26:34.000Z</published>
-    <updated>2019-04-19T06:44:02.831Z</updated>
+    <updated>2019-04-19T07:08:38.814Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;在mac下使用brew安装软件时，默认每次都会自动更新homebrew，显示&lt;br&gt;Updating Homebrew…，网络状况不好或者没有换源的时候，很慢，会卡在这里许久不动。&lt;/p&gt;
 &lt;p&gt;我们可以关闭自动更新，在命令行执行：&lt;/p&gt;
-&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; HOMEBREW_NO_AUTO_UPDATE=&lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ export HOMEBREW_NO_AUTO_UPDATE=true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;即可关闭自动更新。&lt;/p&gt;
     
     </summary>
