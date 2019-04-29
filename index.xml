@@ -18,7 +18,7 @@
 
 &lt;h2 id=&#34;the-world-between-us&#34;&gt;《The World Between Us》&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://img3.jiemian.com/101/original/20190421/15558116796316400_a640x364.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.superbed.cn/item/5cc51a563a213b0417280a72&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&amp;ldquo;我们都是好人。不知道为什么事情会变成这样子，老天爷到底要我们学什么？”&lt;/strong&gt;&lt;/p&gt;
 
@@ -451,10 +451,21 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 &lt;h3 id=&#34;部署过程中遇到的问题&#34;&gt;部署过程中遇到的问题&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;使用该主题时，文章标题*号后面要加空格，如：二号标题写法为：&lt;code&gt;**空格+内容&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;TODO：文章目录导航(待添加)，可参考：&lt;a href=&#34;https://github.com/liuzc/LeaveIt/pull/11&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/liuzc/LeaveIt/pull/11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TODO：文章归档和标签按时间倒序()&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用该主题时，文章标题*号后面要加空格，如：二号标题写法为：&lt;code&gt;**空格+内容&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;TODO：文章目录导航(待添加)，可参考：&lt;a href=&#34;https://github.com/liuzc/LeaveIt/pull/11&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/liuzc/LeaveIt/pull/11&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;部署命令：&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;进到&lt;code&gt;~/Documents/OneDrive/hugo_blog/blog-hugo/mysite&lt;/code&gt;目录,执行如下git命令：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;   git status
+   git add -A
+   git commit -m &amp;quot;first commit&amp;quot;
+   git pull origin master --allow-unrelated-histories
+   git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;写作工具&#34;&gt;写作工具&lt;/h3&gt;
 
