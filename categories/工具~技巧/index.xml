@@ -41,7 +41,7 @@ It makes use of a variety of open source projects including:
  TODO：文章目录导航(待添加)，可参考：https://github.com/liuzc/LeaveIt/pull/11
  部署命令：
   进到~/Documents/OneDrive/hugo_blog/blog-hugo/mysite目录,执行如下git命令：
-git status git add -A git commit -m &amp;quot;first commit&amp;quot; git pull origin master --allow-unrelated-histories git push -u origin master  写作工具  Markdown工具：Typora</description>
+hugo --theme=LeaveIt --buildDrafts --baseUrl=&amp;quot;https://topsee.</description>
     </item>
     
   </channel>

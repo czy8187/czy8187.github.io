@@ -460,11 +460,25 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 
 &lt;p&gt;进到&lt;code&gt;~/Documents/OneDrive/hugo_blog/blog-hugo/mysite&lt;/code&gt;目录,执行如下git命令：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;   git status
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;   hugo --theme=LeaveIt --buildDrafts --baseUrl=&amp;quot;https://topsee.top&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;ndash;buildDrafts 不加会生成无内容的网站&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;baseUrl要和config.toml的地址一致。&lt;/p&gt;
+
+&lt;p&gt;顺利的话会创建public文件（里面的内容就是你要上传的静态网站的文件。）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;   cd public
+   git status
    git add -A
    git commit -m &amp;quot;first commit&amp;quot;
-   git pull origin master --allow-unrelated-histories
    git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;如果push报错，尝试执行如下命令后再次push：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;   git pull origin master --allow-unrelated-histories
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;写作工具&#34;&gt;写作工具&lt;/h3&gt;
