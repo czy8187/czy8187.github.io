@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-cn">
   <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -46,8 +46,8 @@
     "articleSection" : "posts",
     "name" : "Hello Hugo",
     "headline" : "Hello Hugo",
-    "description" : "Hello Hugo Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。\n 官网：https:\/\/gohugo.io 中文文档：https:\/\/www.gohugo.org  Have fun!  Hugo is the world’s fastest framework for building websites. It is written in Go.\nIt makes use of a variety of open source projects including:\n https:\/\/github.com\/russross\/blackfriday https:\/\/github.com\/alecthomas\/chroma https:\/\/github.com\/muesli\/smartcrop https:\/\/github.com\/spf13\/cobra https:\/\/github.com\/spf13\/viper  Learn more and contribute on GitHub.\n关于博客主题：LeaveIt  Github链接:https:\/\/github.com\/liuzc\/LeaveIt\n 中文说明：https:\/\/liuzhichao.com\/2018\/hugo-theme-leaveit\/\n  部署过程中遇到的问题  使用该主题时，文章标题*号后面要加空格，如：二号标题写法为：**空格\x2b内容\n TODO：文章目录导航(待添加)，可参考：https:\/\/github.com\/liuzc\/LeaveIt\/pull\/11\n 部署命令：\n  进到~\/Documents\/OneDrive\/hugo_blog\/blog-hugo\/mysite目录,执行如下git命令：\nhugo --theme=LeaveIt --buildDrafts --baseUrl=\x26quot;https:\/\/topsee.",
-    "inLanguage" : "en-us",
+    "description" : "Hello Hugo Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 官网：https:\/\/gohugo.io 中文文档：https:\/\/",
+    "inLanguage" : "zh-cn",
     "author" : "悲酥清风﹌",
     "creator" : "悲酥清风﹌",
     "publisher": "悲酥清风﹌",
@@ -57,7 +57,7 @@
     "datePublished": "2019-04-20 01:50:56 \x2b0800 CST",
     "dateModified" : "2019-04-20 01:50:56 \x2b0800 CST",
     "url" : "https:\/\/topsee.top\/2019\/hello-hugo\/",
-    "wordCount" : "90",
+    "wordCount" : "657",
     "keywords" : [ "博客","Hugo", "悲酥清风﹌"]
 }
 </script>
@@ -77,7 +77,7 @@
         <div class="menu navbar-right">
                 
                 
-                <a class="menu-item" href="/posts/" title="">博客</a>
+                <a class="menu-item" href="/posts/" title="">博文</a>
                 
                 <a class="menu-item" href="/categories/" title="">归档</a>
                 
@@ -100,7 +100,7 @@
           <div class="menu" id="mobile-menu">
                 
                 
-                <a class="menu-item" href="/posts/" title="">博客</a>
+                <a class="menu-item" href="/posts/" title="">博文</a>
                 
                 <a class="menu-item" href="/categories/" title="">归档</a>
                 
@@ -128,6 +128,7 @@
                         <a href="https://topsee.top/categories/%E5%B7%A5%E5%85%B7~%E6%8A%80%E5%B7%A7/"> 工具~技巧 </a>
                         
                 </span>
+                <span class="post-word-count">, 657 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -195,8 +196,10 @@
 
 <li><p>TODO：文章目录导航(待添加)，可参考：<a href="https://github.com/liuzc/LeaveIt/pull/11" rel="nofollow noreferrer" target="_blank">https://github.com/liuzc/LeaveIt/pull/11</a></p></li>
 
-<li><p>部署命令：</p></li>
+<li><p>TODO: 使用Travis CI 自动部署Hugo博客，<a href="https://mogeko.me/2018/028/" rel="nofollow noreferrer" target="_blank">https://mogeko.me/2018/028/</a></p></li>
 </ol>
+
+<h3 id="部署命令">部署命令：</h3>
 
 <p>进到<code>~/Documents/OneDrive/hugo_blog/blog-hugo/mysite</code>目录,执行如下git命令：</p>
 
@@ -206,6 +209,8 @@
 <p>&ndash;buildDrafts 不加会生成无内容的网站</p>
 
 <p>&ndash;baseUrl要和config.toml的地址一致。</p>
+
+<p>​</p>
 
 <p>顺利的话会创建public文件（里面的内容就是你要上传的静态网站的文件。）</p>
 

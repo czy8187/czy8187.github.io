@@ -5,7 +5,7 @@
     <link>https://topsee.top/tags/hugo/</link>
     <description>Recent content in Hugo on 悲酥清风﹌</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Sat, 20 Apr 2019 01:50:56 +0800</lastBuildDate>
     
 	<atom:link href="https://topsee.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -17,17 +17,7 @@
       <pubDate>Sat, 20 Apr 2019 01:50:56 +0800</pubDate>
       
       <guid>https://topsee.top/2019/hello-hugo/</guid>
-      <description>Hello Hugo Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
- 官网：https://gohugo.io 中文文档：https://www.gohugo.org  Have fun!  Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.
-关于博客主题：LeaveIt  Github链接:https://github.com/liuzc/LeaveIt
- 中文说明：https://liuzhichao.com/2018/hugo-theme-leaveit/
-  部署过程中遇到的问题  使用该主题时，文章标题*号后面要加空格，如：二号标题写法为：**空格+内容
- TODO：文章目录导航(待添加)，可参考：https://github.com/liuzc/LeaveIt/pull/11
- 部署命令：
-  进到~/Documents/OneDrive/hugo_blog/blog-hugo/mysite目录,执行如下git命令：
-hugo --theme=LeaveIt --buildDrafts --baseUrl=&amp;quot;https://topsee.</description>
+      <description>Hello Hugo Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 官网：https://gohugo.io 中文文档：https://</description>
     </item>
     
   </channel>
