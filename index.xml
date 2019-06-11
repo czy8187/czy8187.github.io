@@ -3613,58 +3613,5 @@ runtime部分主要参考&lt;a href=&#34;https://developer.apple.com/library/mac
 </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://topsee.top/1/%E4%BA%91%E6%A1%8C%E9%9D%A2app%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://topsee.top/1/%E4%BA%91%E6%A1%8C%E9%9D%A2app%E9%80%82%E9%85%8D%E5%86%85%E5%AE%B9/</guid>
-      <description>&lt;p&gt;云桌面App适配内容：&lt;/p&gt;
-
-&lt;p&gt;iOS端：&lt;/p&gt;
-
-&lt;p&gt;1、不同手机尺寸的机型适配&lt;/p&gt;
-
-&lt;p&gt;2、异形屏安全区及界面的适配调整&lt;/p&gt;
-
-&lt;p&gt;3、iOS版本适配：苹果公司每年发布iOS新版本的适配&lt;/p&gt;
-
-&lt;p&gt;4、iPad界面适配及个别子应用的重新开发&lt;/p&gt;
-
-&lt;p&gt;Android端：&lt;/p&gt;
-
-&lt;p&gt;1、不同手机尺寸的机型适配&lt;/p&gt;
-
-&lt;p&gt;2、不同安卓手机厂家ROM适配&lt;/p&gt;
-
-&lt;p&gt;3、不同安卓手机厂家应用后台保活设置及消息推送、消息角标展示的开发与适配&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://topsee.top/1/%E4%BA%91%E6%A1%8C%E9%9D%A2%E5%AF%B9%E6%8E%A5%E4%B8%AD%E5%A8%81oa%E8%B7%B3%E8%BD%AC%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://topsee.top/1/%E4%BA%91%E6%A1%8C%E9%9D%A2%E5%AF%B9%E6%8E%A5%E4%B8%AD%E5%A8%81oa%E8%B7%B3%E8%BD%AC%E5%B7%A5%E4%BD%9C%E5%86%85%E5%AE%B9/</guid>
-      <description>&lt;p&gt;云桌面对接中威OA跳转工作内容&lt;/p&gt;
-
-&lt;p&gt;（一）从云桌面&amp;ndash;&amp;ldquo;我的应用&amp;rdquo;跳转至OA应用&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;云桌面安卓客户端将原&amp;rdquo;自动化办公&amp;rdquo;应用(HTML5插件类型)图标在&amp;rdquo;我的应用&amp;rdquo;里隐藏；在云桌面后台管理端将其权限用户禁用&lt;/li&gt;
-&lt;li&gt;云桌面安卓端新增&amp;rdquo;自动化办公&amp;rdquo;应用(原生安卓类型)，同时配置用户，接入单点登录等功能&lt;/li&gt;
-&lt;li&gt;从云桌面&amp;rdquo;我的应用&amp;rdquo;点击&amp;rdquo;自动化办公&amp;rdquo;应用图标时进行应用跳转功能的联调&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;（二）从云桌面&amp;ndash;&amp;ldquo;消息&amp;rdquo;列表OA的公众号消息跳转至OA应用&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;云桌面安卓客户端接收到&amp;rdquo;办公自动化&amp;rdquo;公众号消息时，拦截启动命令参数，根据参数判断客户端类型做对应的应用唤起处理&lt;/li&gt;
-&lt;li&gt;公众号消息已读未读处理，未读角标数值逻辑修改&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
