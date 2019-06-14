@@ -456,6 +456,8 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 &lt;li&gt;&lt;p&gt;TODO：文章目录导航(待添加)，可参考：&lt;a href=&#34;https://github.com/liuzc/LeaveIt/pull/11&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/liuzc/LeaveIt/pull/11&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;TODO: 使用Travis CI 自动部署Hugo博客，&lt;a href=&#34;https://mogeko.me/2018/028/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://mogeko.me/2018/028/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;更改主题配置后不生效&lt;/strong&gt;：需要删除&lt;code&gt;/public/&lt;/code&gt;目录下除&lt;code&gt;.git&lt;/code&gt; 外的文件，然后重新运行部署命令&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;部署命令&#34;&gt;部署命令：&lt;/h3&gt;
